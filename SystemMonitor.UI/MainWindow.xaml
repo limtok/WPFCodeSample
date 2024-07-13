@@ -1,0 +1,22 @@
+﻿<Window 
+    x:Class="SystemMonitor.UI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SystemMonitor.UI"
+    xmlns:prism="http://prismlibrary.com/" 
+    xmlns:devices="clr-namespace:SystemMonitor.Control.DeviceGrid;assembly=SystemMonitor.Control.DeviceGrid"
+    xmlns:toolbar="clr-namespace:SystemMonitor.Control.Toolbar;assembly=SystemMonitor.Control.Toolbar"
+    mc:Ignorable="d"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    Title="Device Monitor" Height="450" Width="800"
+    WindowState="Maximized"
+    WindowStartupLocation="CenterScreen"
+    prism:ViewModelLocator.AutoWireViewModel="True">
+    <StackPanel Orientation="Vertical">
+        <toolbar:ToolbarControl/>
+        <devices:DeviceGrid/>
+    </StackPanel>
+</Window>
