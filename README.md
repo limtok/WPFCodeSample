@@ -18,7 +18,7 @@ Note: Main purpose of code and implementation was to show how are used design pa
 - unit tests for main parts and classes of application
 - event handling for device property change, to auto update item in grid
 
-=====================================================================================
+===========================================================================
 
 Additional task:
 The ticket below should be send directly to the print device from the list. 
@@ -32,5 +32,3 @@ Notes: Printing was tested localy and on remotely own 3-inch Direct Thermal POS 
 <p align="center">
   <img width="320" src="https://github.com/limtok/WPFCodeSample/raw/main/screenshots/print_result.jpg">
 </p>
-
-=====================================================================================
